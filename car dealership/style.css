@@ -1,0 +1,71 @@
+.htmlindex {
+    background-color: rgb(231, 231, 172);
+}
+
+.htmlinventory{
+    background-color: rgb(198, 198, 218);
+}
+
+.htmlabout{
+    background-color: rgb(197, 169, 169);
+}
+
+.htmlcontact{
+    background-color: rgb(192, 211, 192);
+}
+
+#headername{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: black;
+    position: relative;
+  }
+
+
+  #slider{
+      width: 720px;
+      height: 400px;
+      overflow: hidden;
+  }
+
+  #slider .slides {
+      display: block;
+      width: 6000px;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+  }
+
+  #slider .slide {
+      float: left;
+      list-style-type: none;
+      width: 720px;
+      height: 400px;
+  }
+
+
+  ul {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: rgb(172, 23, 23);
+    position: relative;   
+  }
+
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #ee1919;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
